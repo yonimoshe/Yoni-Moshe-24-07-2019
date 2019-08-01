@@ -1,0 +1,22 @@
+.search-cont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.search-cont ul {
+  width: 178px;
+  position: absolute;
+  background: #fff;
+  z-index: 2;
+  border: 1px solid grey;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-cont li {
+  padding: 5px 10px;
+  cursor: pointer;
+}

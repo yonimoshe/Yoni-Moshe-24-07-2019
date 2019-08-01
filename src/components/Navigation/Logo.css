@@ -1,0 +1,11 @@
+.Logo {
+   color: blue;
+   padding: 1rem;
+   border: 1px solid blue;
+}
+
+@media (max-width: 500px) {
+    .Logo {
+        display: none;
+    }
+}
