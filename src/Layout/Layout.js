@@ -6,13 +6,17 @@ import Favorites from '../containers/Favorites/Favorites';
 
 
 const layout = (props) => (
-        <header>
-            <Navigation />
-              <Switch>
-               <Route path='/Favorites' component={Favorites} />
-               <Route path='/' component={HomeGrid} />
-              </Switch>
-        </header>
+        <div className="container-fluid">
+           <div className="row">
+            <div className="col-md-12" >
+              <Navigation />
+                <Switch>
+                 <Route path='/Favorites' component={Favorites} />
+                 <Route path='/' component={HomeGrid} />
+                </Switch>
+             </div>
+           </div>
+        </div>
 );
 
 export default layout;

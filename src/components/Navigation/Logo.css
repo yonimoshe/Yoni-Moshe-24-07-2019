@@ -2,6 +2,7 @@
    color: blue;
    padding: 1rem;
    border: 1px solid blue;
+   margin-bottom: -2px;
 }
 
 @media (max-width: 500px) {

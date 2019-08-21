@@ -4,9 +4,9 @@ import './Logo.css';
 
 const navigation = () => (
 
-        <nav className="navbar navbar-light bg-light">
-          <p className="Logo">Herolo Weather Task</p>
-            <ul>
+        <nav className="navbar navbar-light bg-light justify-content-xs-center">
+          <p className="Logo">LOGO</p>
+            <ul className="p-0">
                 <li style={{fontSize: '20px', margin: '10px', display: 'inline-block'}}>
                   <NavLink to="/" exact >Home</NavLink>
                 </li>

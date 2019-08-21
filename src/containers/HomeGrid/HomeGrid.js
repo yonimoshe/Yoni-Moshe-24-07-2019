@@ -67,11 +67,11 @@ removeFromFavorites(){
   render() {
     const isFavorite = this.state.isFavorite;
     return (
-      <div className="container">
+      <div className="container-fluid">
         <Search />
           <div className="row mt-5 justify-content-between">
              <CurrentWeather />
-                <div className="col-2">
+                <div className="col-4 text-right  mt-4">
                    {!isFavorite && <button onClick={this.addToFavorites} type="button" className="btn btn-success border 1px solid: black">Add to favorites</button>}
                    {isFavorite && <button onClick={this.removeFromFavorites} type="button" className="btn btn-light border 1px solid: black">Remove from favorites</button>}
                  </div>
