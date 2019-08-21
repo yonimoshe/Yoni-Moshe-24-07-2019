@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Yoni-Moshe-24-07-2019/precache-manifest.1d0b563c48479750587c940907473f00.js"
+  "/Yoni-Moshe-24-07-2019/precache-manifest.c0970b05d72b3651d8d7131ae217a773.js"
 );
 
 self.addEventListener('message', (event) => {
