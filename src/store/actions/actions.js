@@ -4,7 +4,7 @@ export const GET_SUGGESTIONS = 'GET_SUGGESTIONS';
 export const GET_CURRENT = 'GET_CURRENT';
 export const  GET_FORECAST = ' GET_FORECAST';
 
-var token = "LjEUfGR3AcoDRt53CmW0qfOsxNiDSUCH";
+var token = *******
 
 export const getSuggestions = (char) => {
   return dispatch => {
