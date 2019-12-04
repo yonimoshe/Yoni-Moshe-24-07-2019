@@ -8,7 +8,7 @@ import Favorites from '../containers/Favorites/Favorites';
 const layout = (props) => (
         <div className="container-fluid">
            <div className="row">
-            <div className="col-md-12" >
+            <div className="col-md-12 p-0">
               <Navigation />
                 <Switch>
                  <Route path='/Favorites' component={Favorites} />
